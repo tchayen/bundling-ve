@@ -6,7 +6,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
   entry: path.join(__dirname, "./index.ts"),
   output: {
-    path: path.join(__dirname, "dist-webpack"),
+    path: path.join(__dirname, "dist"),
     library: {
       name: "component-library",
       type: "umd",

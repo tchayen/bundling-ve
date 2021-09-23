@@ -42,14 +42,14 @@ export default [
     output: [
       {
         manualChunks,
-        dir: "dist-rollup/esm",
+        dir: "dist/esm",
         format: "esm",
         exports: "named",
         sourcemap: true,
       },
       {
         manualChunks,
-        dir: "dist-rollup/cjs",
+        dir: "dist/cjs",
         format: "cjs",
         exports: "named",
         sourcemap: true,
